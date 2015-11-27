@@ -1,5 +1,5 @@
-# Luck-Draw
-Lucy draw program which can be customized.
+# Lucky-Draw
+Lucky draw program which can be customized.
 
 #Install
 You should have Python3 and Pillow installed.
