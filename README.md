@@ -13,6 +13,8 @@ Pillow can be installed by using
 #Run
 You can paste your candidates text into LIST.txt and every line will be a candidate.
 
+Every winner will be removed from the candidates and you can press the reset button to bring them back.
+
 Press gear icon of the program to open the setting window and you can customize the program as you want.
 
 #Screenshot
