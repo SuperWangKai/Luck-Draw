@@ -19,3 +19,8 @@ Press gear icon of the program to open the setting window and you can customize 
 
 #Screenshot
 ![](https://github.com/SuperWangKai/Luck-Draw/blob/master/screenshot.png)
+
+#Background image
+Default background image is from http://opengameart.org
+
+The license of the image [https://github.com/SuperWangKai/Luck-Draw/blob/master/res/License.txt](https://github.com/SuperWangKai/Luck-Draw/blob/master/res/License.txt)
