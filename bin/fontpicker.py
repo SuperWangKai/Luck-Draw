@@ -1,3 +1,6 @@
+## code based on http://tkinter.unpythonic.net/wiki/FontChooser
+
+
 import tkinter.tix
 import tkinter.simpledialog
 import tkinter.font

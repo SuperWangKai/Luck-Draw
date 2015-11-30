@@ -329,7 +329,7 @@ class RollingApp(object):
                               ('Begin rolling text', 'text', 'Begin!'),  # 10
                               ('End rolling text', 'text', 'Stop'),  # 11
                               ('Left visible letter count', 'int', [0, 50, 3]),  # 12
-                              ('Right visual letter count', 'int', [0, 50, 4]), ]  # 13
+                              ('Right visible letter count', 'int', [0, 50, 4]), ]  # 13
 
         self.STATES = ('WELCOME', 'ROLLING', 'RESULT')
 
@@ -459,7 +459,7 @@ class RollingApp(object):
     @staticmethod
     def write_config_file(name, settings):
         with open(name, 'wt+', encoding='utf-8') as out:
-            json.dump(settings, out, indent='\t')
+            json.dump(settings, out, indent='\t', ensure_ascii=False)
 
     def settings_valid(self, settings):
         for n in self.setting_names:
