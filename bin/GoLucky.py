@@ -8,11 +8,13 @@
 import json
 import copy
 import time
+import sys
 import random
+import os
 import os.path
 import traceback
 import fontpicker
-import tkinter.tix
+from tkinter.tix import *
 import tkinter.ttk
 import tkinter.colorchooser
 import tkinter.filedialog
@@ -20,11 +22,17 @@ from tkinter import *
 from PIL import ImageTk, Image
 from functools import partial
 
+
+
 ROLLING_INTERVAL = 0.005  # sec
 USER_SETTING_FILE = '../config/user.cfg'
 DEFAULT_SETTING_FILE = '../config/default.cfg'
 SETTING_ICON = '../res/settings.png'
 DEF_BG_IMAGE = '../res/bg.png'
+
+root_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+print('root_dir', root_dir)
+os.chdir(root_dir)
 
 
 class SettingWindow:
